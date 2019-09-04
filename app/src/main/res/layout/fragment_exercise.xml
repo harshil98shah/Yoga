@@ -50,13 +50,14 @@
                 <ImageView
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
-                    android:layout_height="80dp"
+                    android:layout_height="90dp"
                     android:src="@drawable/eagle" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
                     android:gravity="center"
                     android:text="Eagle Arms(Left)"
                     android:textSize="15dp"
@@ -88,13 +89,14 @@
                 <ImageView
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
-                    android:layout_height="80dp"
+                    android:layout_height="90dp"
                     android:src="@drawable/eagle2"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_margin="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
                     android:gravity="center"
                     android:text="Eagle Arms(Right)"
                     android:textSize="15dp"
@@ -129,13 +131,14 @@
                     <ImageView
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp"
+                        android:layout_height="90dp"
                         android:src="@drawable/boat" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_margin="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:text="Big Toes Pose Variation"
                         android:textSize="15dp"
@@ -167,13 +170,13 @@
                     <ImageView
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp"
+                        android:layout_height="90dp"
                         android:src="@drawable/boat"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_margin="0dp"
+                        android:layout_marginTop="20dp"
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:text="Boat"
@@ -209,13 +212,14 @@
                     <ImageView
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp"
+                        android:layout_height="90dp"
                         android:src="@drawable/bound" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_margin="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:text="Bound Side Angle(Left)"
                         android:textSize="15dp"
@@ -247,13 +251,14 @@
                     <ImageView
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp"
+                        android:layout_height="90dp"
                         android:src="@drawable/bound1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_margin="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:text="Bound Side Angle(Right)"
                         android:textSize="15dp"
@@ -287,13 +292,14 @@
                     <ImageView
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp"
+                        android:layout_height="90dp"
                         android:src="@drawable/bridge" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_margin="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:text="Bridge(Left)"
                         android:textSize="15dp"
@@ -325,12 +331,14 @@
                     <ImageView
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp"
+                        android:layout_height="90dp"
                         android:src="@drawable/bridge1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:text="Bridge(Right)"
                         android:textSize="15dp"
