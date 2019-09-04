@@ -34,8 +34,8 @@
             android:id="@+id/card1"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_rowWeight="0.5"
-            android:layout_columnWeight="0.5"
+            android:layout_rowWeight="0.4"
+            android:layout_columnWeight="0.4"
             android:layout_marginRight="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginBottom="8dp"
@@ -72,8 +72,8 @@
             android:id="@+id/card2"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_rowWeight="0.5"
-            android:layout_columnWeight="0.5"
+            android:layout_rowWeight="0.4"
+            android:layout_columnWeight="0.4"
             android:layout_marginRight="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginBottom="8dp"
@@ -113,8 +113,8 @@
                 android:id="@+id/card3"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_rowWeight="0.5"
-                android:layout_columnWeight="0.5"
+                android:layout_rowWeight="0.4"
+                android:layout_columnWeight="0.4"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
@@ -151,8 +151,8 @@
                 android:id="@+id/card4"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_rowWeight="0.5"
-                android:layout_columnWeight="0.5"
+                android:layout_rowWeight="0.4"
+                android:layout_columnWeight="0.4"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
@@ -193,8 +193,8 @@
                 android:id="@+id/card5"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_rowWeight="0.5"
-                android:layout_columnWeight="0.5"
+                android:layout_rowWeight="0.4"
+                android:layout_columnWeight="0.4"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
@@ -209,16 +209,16 @@
 
                     <ImageView
                         android:layout_gravity="center"
-                        android:layout_width="150dp"
-                        android:layout_height="130dp"
-                        android:src="@drawable/eagle" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:src="@drawable/bound" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:gravity="center"
-                        android:text="Eagle Arms(Left)"
+                        android:text="Bound Side Angle(Left)"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -231,8 +231,8 @@
                 android:id="@+id/card6"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_rowWeight="0.5"
-                android:layout_columnWeight="0.5"
+                android:layout_rowWeight="0.4"
+                android:layout_columnWeight="0.4"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginBottom="8dp"
@@ -247,16 +247,16 @@
 
                     <ImageView
                         android:layout_gravity="center"
-                        android:layout_width="150dp"
-                        android:layout_height="130dp"
-                        android:src="@drawable/eagle" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:src="@drawable/bound1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:gravity="center"
-                        android:text="Eagle Arms(Left)"
+                        android:text="Bound Side Angle(Right)"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -268,81 +268,79 @@
 
         <!-- column 1 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card7"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_marginRight="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+                android:id="@+id/card7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="0.4"
+                android:layout_columnWeight="0.4"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="140dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/bridge"/>
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:src="@drawable/bridge" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="0dp"
-                    android:gravity="center"
-                    android:text="Bridge(Left)"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:gravity="center"
+                        android:text="Bridge(Left)"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
 
-            </LinearLayout>
+                </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         <!-- column 2 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/card8"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:layout_marginRight="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+                android:id="@+id/card8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="0.4"
+                android:layout_columnWeight="0.4"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="140dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/bridge1"/>
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:src="@drawable/bridge1" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="0dp"
-                    android:gravity="center"
-                    android:text="Bridge(Right)"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:gravity="center"
+                        android:text="Bridge(Right)"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
 
-            </LinearLayout>
+                </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         </GridLayout>
     </LinearLayout>
