@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorPrimary">#9C27B0</color>
+        <color name="colorPrimaryDark">#9C27B0</color>
+        <color name="colorAccent">#D81B60</color>
+        <color name="colorBlack">#000</color>
+        <color name="colorWhite">#fff</color>
+        <color name="colorTrans">#aaaaaa</color>
+        <color name="colorGreen">#06D30E</color>
+        <color name="colorBlue">#0B2CDA</color>
+
+        <color name="dark">#0008ff</color>
+
+        <color name="collapsing">#0083ff</color>
+
+        <color name="mapping_color">#92e8ff</color>
+
+        <color name="mapping_color_dary">#77e1fd</color>
+
+        <color name="app_background">#F5F5F5</color>
+
+        <color name="backgroundcolor">#fcfcfc</color>
+
+        <color name="lightgray">#ededed</color>
+
+        <color name="deeppurple">#7c4dff</color>
+
+        <color name="yello">#ffb300</color>
+
+        <color name="green">#00bfa5</color>
+
+        <color name="darkblue">#23283a</color>
+
+        <color name="testcolorblue">#152b38</color>
+
+        <color name="pink">#fe104d</color>
+
+        <color name="black_overlay">#66000000</color>
+
+        <color name="background">#fcfcfc</color>
+
+        <color name="img_1">#b5bfce</color>
+
+        <color name="img_2">#ced3da</color>
+
+        <color name="img_3">#e0e2e4</color>
+
+        <color name="happy_orange">#F49C1E</color>
+
+        <color name="flower_outer_mapping">#ffe8c7</color>
+
+        <color name="curated_light">#c6c6c6</color>
+
+        <color name="curated">#777777</color>
+
+        <color name="bg_color">#f7f7f7</color>
+
+        <color name="black">#000000</color>
+
+        <color name="gray">#656565</color>
+
+        <color name="white">#FFFFFF</color>
+
+        <color name="indigo_ink">#283655</color>
+
+        <color name="black_effective">#2a2a2a</color>
+
+        <color name="transparent">#00000000</color>
+
+        <color name="view_line">#F7F7F9</color>
+
+        <color name="icon_default">#F0F0E9</color>
+
+        <color name="being_dark">#B34C26</color>
+
+        <color name="happy">#0083ff</color>
+
+        <color name="forgot">#007AFF</color>
+
+        <color name="audio_background">#FDEFE9</color>
+
+        <color name="media">#EA6D78</color>
+
+        <color name="gratitude_txt">#666666</color>
+
+        <color name="gratitude_btn">#FCBC54</color>
+
+        <color name="cal">#ff0801</color>
+
+        <color name="white_trans">#99FFFFFF</color>
+
+        <color name="red_dark">#F06423</color>
+
+        <color name="red_dark2">#D85A1B</color>
+
+        <color name="cyan_light">#c9ebee</color>
+
+        <color name="cyan">#b5e3e7</color>
+
+        <color name="cyan_dark">#70BDC6</color>
+
+        <color name="navy_blue">#214258</color>
+
+        <color name="navy_blue_dark">#1C3A4E</color>
+
+        <color name="light_green">#78DC96</color>
+
+        <color name="light_blue">#55C8F0</color>
+
+        <color name="blue_black_dark">#13171d</color>
+
+        <color name="blue_black_light">#516179</color>
+
+        <color name="blue_grey_light">#A5B4C8</color>
+
+        <color name="orange">#FFA500</color>
+
+        <color name="yellow">#fff44f</color>
+    </resources>
