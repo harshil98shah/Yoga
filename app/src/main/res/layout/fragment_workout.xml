@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    tools:context=".WorkoutFragment">
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -15,10 +14,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="35dp"
-            android:orientation="vertical"
-            tools:context=".MainActivity">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card1"
@@ -62,7 +59,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="5dp"
-                            android:text="5 Exercises"
+                            android:text="6 Exercises"
                             android:drawableLeft="@drawable/ic_timer_white_24dp"
                             android:drawablePadding="10dp"
                             android:textColor="#ffff"
@@ -79,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp">
 
                 <LinearLayout
@@ -114,7 +111,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="5dp"
-                            android:text="5 Exercises"
+                            android:text="6 Exercises"
                             android:drawableLeft="@drawable/ic_timer_white_24dp"
                             android:drawablePadding="10dp"
                             android:textColor="#ffff"
@@ -131,7 +128,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp">
 
                 <LinearLayout
@@ -143,7 +140,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/balance1" />
+                        android:src="@drawable/balance2"/>
 
 
                     <LinearLayout
@@ -168,7 +165,7 @@
                             android:drawablePadding="10dp"
                             android:layout_marginTop="5dp"
                             android:drawableLeft="@drawable/ic_timer_white_24dp"
-                            android:text="5 Exercises"
+                            android:text="6 Exercises"
                             android:textColor="#ffff"
                             android:textSize="15dp" />
                     </LinearLayout>
@@ -182,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp">
 
                 <LinearLayout
@@ -219,7 +216,7 @@
                             android:layout_marginTop="5dp"
                             android:drawablePadding="10dp"
                             android:drawableLeft="@drawable/ic_timer_white_24dp"
-                            android:text="5 Exercises"
+                            android:text="6 Exercises"
                             android:textColor="#ffff"
                             android:textSize="15dp" />
                     </LinearLayout>
@@ -233,9 +230,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="25dp">
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -271,7 +267,58 @@
                             android:layout_marginTop="5dp"
                             android:drawableLeft="@drawable/ic_timer_white_24dp"
                             android:drawablePadding="10dp"
-                            android:text="5 Exercises"
+                            android:text="6 Exercises"
+                            android:textColor="#ffff"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card6"
+                app:cardBackgroundColor="@color/collapsing"
+                app:cardCornerRadius="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/balance1" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/t6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Sun Salutation"
+                            android:textColor="#ffff"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableLeft="@drawable/ic_timer_white_24dp"
+                            android:drawablePadding="10dp"
+                            android:text="6 Exercises"
                             android:textColor="#ffff"
                             android:textSize="15dp" />
                     </LinearLayout>
