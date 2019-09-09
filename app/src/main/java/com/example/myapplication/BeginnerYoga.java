@@ -11,9 +11,17 @@ public class BeginnerYoga extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beginner_yoga);
-
+        String yoga = getIntent().getStringExtra("yoga");
+        if(yoga.equalsIgnoreCase("beginner"))
+        {
+            setContentView(R.layout.activity_beginner_yoga);
+        }
+        else if(yoga.equalsIgnoreCase("morning"))
+        {
+            setContentView(R.layout.activity_beginner_yoga);
+        }
         ActionBar actionBar=getSupportActionBar();
+        actionBar.setTitle(yoga);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setBackgroundDrawable(getResources().getDrawable(R.color.colorBlue));
 

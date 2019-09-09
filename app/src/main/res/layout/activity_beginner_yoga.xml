@@ -32,11 +32,10 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/img1"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/beginner1"/>
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mountain"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -77,8 +76,8 @@
                         android:id="@+id/img2"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/morning1" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/downward1" />
 
 
                     <LinearLayout
@@ -92,7 +91,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Mountain Yoga"
+                            android:text="Downward Yoga"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -120,8 +119,8 @@
                         android:id="@+id/img3"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/balance1" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/plank" />
 
 
                     <LinearLayout
@@ -135,7 +134,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Mountain Yoga"
+                            android:text="Plank Yoga"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -163,8 +162,8 @@
                         android:id="@+id/img4"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/dynamic1" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/tree" />
 
 
                     <LinearLayout
@@ -178,7 +177,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Mountain Yoga"
+                            android:text="Tree (Right)"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -205,8 +204,8 @@
                         android:id="@+id/img5"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/core1" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/tree1" />
 
 
                     <LinearLayout
@@ -220,7 +219,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Mountain Yoga"
+                            android:text="Tree (Left)"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -248,8 +247,8 @@
                         android:id="@+id/img6"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/core1" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/warrior_1" />
 
 
                     <LinearLayout
@@ -263,7 +262,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Mountain Yoga"
+                            android:text="Warrior 1"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -281,7 +280,8 @@
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp">
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -291,8 +291,8 @@
                         android:id="@+id/img7"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/core1" />
+                        android:scaleType="fitXY"
+                        android:src="@drawable/warrior_2" />
 
 
                     <LinearLayout
@@ -306,7 +306,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Mountain Yoga"
+                            android:text="Warrior 2"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
