@@ -75,7 +75,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/downward1" />
+                        android:src="@drawable/warrior_1" />
 
 
                     <LinearLayout
@@ -89,7 +89,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Downward Yoga"
+                            android:text="Warrior I"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -118,7 +118,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/plank" />
+                        android:src="@drawable/warrior_2" />
 
 
                     <LinearLayout
@@ -132,7 +132,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Plank Yoga"
+                            android:text="Warrior II (Right)"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -161,7 +161,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree" />
+                        android:src="@drawable/warrior_1l" />
 
 
                     <LinearLayout
@@ -175,7 +175,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Tree (Right)"
+                            android:text="Warrior II (Left)"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -203,7 +203,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree1" />
+                        android:src="@drawable/cat_camel" />
 
 
                     <LinearLayout
@@ -217,7 +217,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Tree (Left)"
+                            android:text="Cat Camel"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -246,7 +246,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/warrior_1" />
+                        android:src="@drawable/downward1" />
 
 
                     <LinearLayout
@@ -260,7 +260,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Warrior 1"
+                            android:text="Downward Facing Dog"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -290,7 +290,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/warrior_2" />
+                        android:src="@drawable/forearm_plank" />
 
 
                     <LinearLayout
@@ -304,7 +304,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Warrior 2"
+                            android:text="Forearm Plank"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
