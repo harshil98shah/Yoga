@@ -12,13 +12,13 @@ public class BeginnerYoga extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         String yoga = getIntent().getStringExtra("yoga");
-        if(yoga.equalsIgnoreCase("beginner"))
+        if(yoga.equalsIgnoreCase("Beginner"))
         {
             setContentView(R.layout.activity_beginner_yoga);
         }
-        else if(yoga.equalsIgnoreCase("morning"))
+        else if(yoga.equalsIgnoreCase("Morning"))
         {
-            setContentView(R.layout.activity_beginner_yoga);
+            setContentView(R.layout.morning_yoga);
         }
         ActionBar actionBar=getSupportActionBar();
         actionBar.setTitle(yoga);
