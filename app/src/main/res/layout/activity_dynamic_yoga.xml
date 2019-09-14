@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -33,7 +33,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree"/>
+                        android:src="@drawable/easy"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Tree (Right)"
+                            android:text="Easy Pose"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -75,7 +75,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree1" />
+                        android:src="@drawable/standing" />
 
 
                     <LinearLayout
@@ -89,7 +89,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Tree (Left)"
+                            android:text="Standing Forward Pose"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -118,7 +118,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/easy" />
+                        android:src="@drawable/squat" />
 
 
                     <LinearLayout
@@ -132,7 +132,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Easy pose"
+                            android:text="Yoga Squat"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -161,7 +161,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/mountain" />
+                        android:src="@drawable/wind" />
 
 
                     <LinearLayout
@@ -175,7 +175,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Mountain Pose"
+                            android:text="Wind Relieving Pose Variation"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -203,7 +203,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/boat" />
+                        android:src="@drawable/wind1" />
 
 
                     <LinearLayout
@@ -217,7 +217,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Big Toes pose Variation"
+                            android:text="Wind Relieving Pose Variation"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -315,5 +315,6 @@
         </LinearLayout>
 
     </ScrollView>
+
 
 </FrameLayout>

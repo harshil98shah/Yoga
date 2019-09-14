@@ -33,7 +33,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/easy2"/>
+                        android:src="@drawable/easy"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"

@@ -70,4 +70,7 @@ public class MainActivity extends AppCompatActivity {
     public void goToBalance(View view) {
         startActivity(new Intent(MainActivity.this,BeginnerYoga.class).putExtra("yoga","Balance"));
     }
+    public void goToDynamic(View view) {
+        startActivity(new Intent(MainActivity.this,BeginnerYoga.class).putExtra("yoga","Dynamic"));
+    }
 }
