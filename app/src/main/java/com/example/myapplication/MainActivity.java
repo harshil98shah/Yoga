@@ -67,5 +67,7 @@ public class MainActivity extends AppCompatActivity {
     public void goToMorning(View view) {
         startActivity(new Intent(MainActivity.this,BeginnerYoga.class).putExtra("yoga","Morning"));
     }
-
+    public void goToBalance(View view) {
+        startActivity(new Intent(MainActivity.this,BeginnerYoga.class).putExtra("yoga","Balance"));
+    }
 }
