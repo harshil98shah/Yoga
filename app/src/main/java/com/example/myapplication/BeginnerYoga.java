@@ -24,7 +24,7 @@ public class BeginnerYoga extends AppCompatActivity {
         {
             setContentView(R.layout.balance_yoga);
         }
-        else if(yoga.equalsIgnoreCase("Balance"))
+        else if(yoga.equalsIgnoreCase("Dynamic"))
         {
             setContentView(R.layout.activity_dynamic_yoga);
         }
