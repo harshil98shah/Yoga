@@ -28,6 +28,14 @@ public class BeginnerYoga extends AppCompatActivity {
         {
             setContentView(R.layout.activity_dynamic_yoga);
         }
+        else if(yoga.equalsIgnoreCase("Core"))
+        {
+            setContentView(R.layout.core_yoga);
+        }
+        else if(yoga.equalsIgnoreCase("Sun Salutation"))
+        {
+            setContentView(R.layout.sunsalutation_yoga);
+        }
         ActionBar actionBar=getSupportActionBar();
         actionBar.setTitle(yoga);
         actionBar.setHomeButtonEnabled(true);

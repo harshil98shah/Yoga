@@ -41,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
                    setFragment(exerciseFragment);
                    return true;
                }
-               else if (id == R.id.setting)
-               {
-                   setFragment(settingFragment);
-                   return true;
-               }
+//               else if (id == R.id.setting)
+//               {
+//                   setFragment(settingFragment);
+//                   return true;
+//               }
                return false;
            }
        });
@@ -72,5 +72,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void goToDynamic(View view) {
         startActivity(new Intent(MainActivity.this,BeginnerYoga.class).putExtra("yoga","Dynamic"));
+    }
+    public void goToCore(View view) {
+        startActivity(new Intent(MainActivity.this,BeginnerYoga.class).putExtra("yoga","Core"));
+    }
+    public void goToSun(View view) {
+        startActivity(new Intent(MainActivity.this,BeginnerYoga.class).putExtra("yoga","Sun Salutation"));
     }
 }

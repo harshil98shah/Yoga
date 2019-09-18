@@ -163,7 +163,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree" />
+                        android:src="@drawable/treel" />
 
 
                     <LinearLayout
@@ -205,7 +205,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree1" />
+                        android:src="@drawable/treer" />
 
 
                     <LinearLayout

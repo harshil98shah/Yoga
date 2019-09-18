@@ -33,7 +33,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree"/>
+                        android:src="@drawable/tree2"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Tree (Right)"
+                            android:text="Tree (Left)"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -75,7 +75,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/tree1" />
+                        android:src="@drawable/tree3" />
 
 
                     <LinearLayout
@@ -89,7 +89,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
-                            android:text="Tree (Left)"
+                            android:text="Tree (Right)"
                             android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
                             android:drawablePadding="15dp"
                             android:textColor="#ffff"
@@ -118,7 +118,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/mountain" />
+                        android:src="@drawable/mountain1" />
 
 
                     <LinearLayout
@@ -160,7 +160,7 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/boat" />
+                        android:src="@drawable/big" />
 
 
                     <LinearLayout

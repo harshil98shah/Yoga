@@ -8,7 +8,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="400dp"
         android:background="@mipmap/logo">
     </ImageView>
 
@@ -16,9 +16,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Welcome to Yoga"
-        android:textColor="@color/black"
+        android:text="Yoga Workout"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"
         android:textSize="40dp"
+        android:layout_gravity="center">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Relax and Love Life!"
+        android:textColor="@color/colorBlue"
+        android:textSize="30dp"
         android:layout_gravity="center">
     </TextView>
 
