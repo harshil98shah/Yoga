@@ -316,5 +316,8 @@
         </LinearLayout>
 
     </ScrollView>
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gggg"></TextView>
 </FrameLayout>
