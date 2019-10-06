@@ -47,8 +47,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Easy Pose"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -90,8 +88,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Standing Forward Pose"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -133,8 +129,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Yoga Squat"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -176,8 +170,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Wind Relieving Pose Variation"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
                     </LinearLayout>
@@ -218,8 +210,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Wind Relieving Pose Variation"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -261,8 +251,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="High Prayer Variation"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -305,8 +293,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Prayer Pose"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
                     </LinearLayout>

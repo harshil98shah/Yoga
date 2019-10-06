@@ -48,8 +48,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Happy Baby"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -91,8 +89,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="High Prayer Variation"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -134,8 +130,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Big Toes Pose Variation"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -177,8 +171,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Low Lunges (Left)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
                     </LinearLayout>
@@ -219,9 +211,7 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Low Lunges (Right)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
-                            android:textColor="#ffff"
+                            android:textColor="#fff"
                             android:textSize="25dp" />
 
                     </LinearLayout>
@@ -262,8 +252,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Leg Downward Dog (Left)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -306,8 +294,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Leg Downward Dog (Right)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
                     </LinearLayout>
@@ -316,8 +302,5 @@
         </LinearLayout>
 
     </ScrollView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="gggg"></TextView>
+
 </FrameLayout>

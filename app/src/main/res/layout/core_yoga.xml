@@ -48,8 +48,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Shoulder Expansion"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -91,8 +89,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Boat"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -134,8 +130,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Twisted Chair (Left)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -177,8 +171,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Twisted Chair (Right)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
                     </LinearLayout>
@@ -219,8 +211,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Seated Spinal Twist (Left)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -262,8 +252,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Seated Spinal Twist (Right)"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
 
@@ -306,8 +294,6 @@
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="30dp"
                             android:text="Cobra"
-                            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
-                            android:drawablePadding="15dp"
                             android:textColor="#ffff"
                             android:textSize="25dp" />
                     </LinearLayout>
